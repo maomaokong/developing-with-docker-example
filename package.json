@@ -1,0 +1,16 @@
+{
+  "name": "dev-with-docker",
+  "version": "1.0.0",
+  "description": "## Overall Overview ![alt text](https://drive.google.com/uc?export=view&id=1r7ooJ9F_rUhywrSR3ZQE1MbntvnpchkC \"Overall Overview for Developing with Docker\") 1. Develop a Javascript application using *JavaScript* and *NodeJS*. 2. Using a *MongoDB Container* as Database 3. Deploy *Mongo Express UI Container* to access MongoDB using browser instead of using command. 4. The folder architecture for this application as follows: ``` /Developing-with-Docker-Example |-dist |   |-Dockerfile |   |-mongodb.yaml |-images |-src |   |-index.html |   |-server.js |package.json |-README.md",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Desmond Teoh",
+  "license": "ISC"
+}
